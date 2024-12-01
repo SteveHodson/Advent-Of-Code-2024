@@ -11,6 +11,6 @@
 
 ;; The distance is the sum of the differences between the elements of
 ;; the lists.
-(defun distance () 
+(defun day1 () 
   (reduce '+ (mapcar '- (sort *list-a* #'<) (sort *list-b* #'<))))
 
